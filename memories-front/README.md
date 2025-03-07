@@ -22,14 +22,14 @@ Front-end 프로젝트
 
 ## 🔵기술 스택
 - React.js
-- TypeScript
+- TypeScript 
 - React Router
 - React Cookie
 - Zustand
 - Axios
 - Chart.js
 - React Daum Postcode
-- React Quill
+- Tiptap
 - Day.js 
 - Dotenv
 
