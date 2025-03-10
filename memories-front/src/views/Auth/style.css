@@ -24,25 +24,15 @@
   justify-content: center;
 }
 
-#auth-login-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  width: 380px;
+#auth-wrapper .divider{
+  border-top: 1px solid var(--Lightmode_Grey3);
+  width: 64px;
 }
 
-#auth-login-container .header{
-  color: var(--Lightmode_Grey);
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 173%;
+.sns-button.kakao{
+  background-image: url('/src/assets/images/kakao.png');
 }
 
-#auth-login-container .input-container{
-  align-self: stretch;
-  
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.sns-button.naver{
+  background-image: url('/src/assets/images/naver.png');
 }

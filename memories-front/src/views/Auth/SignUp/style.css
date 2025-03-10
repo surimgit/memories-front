@@ -1,0 +1,57 @@
+#auth-sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  
+  width: 380px;
+}
+
+#auth-sign-up-container .header{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--Lightmode_Grey);
+  line-height: 173%;
+}
+
+#auth-sign-up-contanier .sns-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#auth-sign-up-contanier .sns-header{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Lightmode_Grey2);
+}
+
+#auth-sign-up-contanier .sns-button-box {
+  display: flex;
+  gap: 24px;
+}
+
+#auth-sign-up-contanier .sns-button{
+  width: 40px;
+  height: 40px;
+
+  background-size: 100% 100%;
+
+  cursor: pointer;
+}
+
+#auth-sign-up-contanier .input-container{
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#auth-sign-up-contanier .button-container{
+  align-self: stretch;  
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

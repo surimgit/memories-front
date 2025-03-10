@@ -10,6 +10,7 @@
   --Lightmode_Grey: rgba(64, 64, 64, 1);
   --Lightmode_Grey2: rgba(138, 146, 166, 1);
   --Lightmode_Grey3: rgba(238, 238, 238, 1);
+  --Lightmode_Grey4: rgba(113, 113, 113, 1);
   --Primary: rgba(0, 132, 255, 1);
   --Second: rgba(0, 132, 255, 0.10);
   --Error: rgba(255, 84, 64, 1);
@@ -31,10 +32,23 @@
   cursor: pointer;
 }
 
+.button:hover{
+  opacity: 0.85;
+}
+
+.button.fullwidth{
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .button.disable{
   background-color: var(--Lightmode_Grey3);
   color: var(--Lightmode_Grey2 );
   cursor: default;
+}
+
+.button.disalbe:hover{
+  opacity: 1;
 }
 
 .button.second{
@@ -45,6 +59,21 @@
 .button.primary{
   background-color: var(--Primary);
   color: var(--White);
+}
+
+.link{
+  text-align: center;
+  color: var(--Lightmode_Grey4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
+}
+
+.link:hover{
+  color: var(--Lightmode_Grey);
+  font-weight: 600;
 }
 
 body {
