@@ -8,7 +8,7 @@
 }
 
 #auth-sign-up-container .header {
-  color: var(--Lightmode_Grey);
+  color: var(--Lightmode-Grey);
 
   font-size: 30px;
   font-weight: 700;
@@ -23,7 +23,7 @@
 }
 
 #auth-sign-up-container .sns-header {
-  color: var(--Lightmode_Grey2);
+  color: var(--Lightmode-Grey2);
 
   font-size: 16px;
   font-weight: 400;

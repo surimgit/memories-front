@@ -19,7 +19,7 @@ import Auth from './views/Auth';
 function App() {
   return (
   <Routes>
-    <Route path={'/auth'} element={<Auth />} />
+    <Route path={'/auth'} element={<Auth/>} />
     
     <Route element={<Layout/>}>
       <Route path={'/main'} element={<>메인 페이지</>} />
