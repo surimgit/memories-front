@@ -5,7 +5,7 @@ import SignIn from './SignIn';
 import SingUp from './SignUp';
 import { AuthPage } from 'src/types/aliases';
 import { useCookies } from 'react-cookie';
-import { ACCESS_TOKEN, MAIN_ABSOLUTE_PATH, MAIN_PATH } from 'src/constants';
+import { ACCESS_TOKEN, JOIN_TYPE, MAIN_ABSOLUTE_PATH, MAIN_PATH, SNS_ID } from 'src/constants';
 
 
 
@@ -22,6 +22,7 @@ export default function Auth() {
 // function: 네비게이터 함수 //
 const navigator = useNavigate();
 
+
 // event handler: 페이지 변경 이벤트 처리 //
   const onPageChangeHandler = (page: AuthPage) => {
     setPage(page);
@@ -30,6 +31,7 @@ const navigator = useNavigate();
 // effect: 화면 렌더시 실행할 함수 //
 useEffect(() => {
   if(cookies[ACCESS_TOKEN]) navigator(MAIN_ABSOLUTE_PATH);
+  if(cookies[JOIN_TYPE] && cookies[SNS_ID]) setPage('sign-up'); 
 }, [])
 
   return (
