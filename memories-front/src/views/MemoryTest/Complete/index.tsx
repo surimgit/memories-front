@@ -26,10 +26,10 @@ function TableItem({ memoryTest }: TableItemProps){
   // render: 기억력 검사 테이블 레코드 컴포넌트 렌더링 //
   return(
     <div className='tr'>
-      <div className='th sequence'>{seqeunce}</div>
-      <div className='th test-date'>{testDate}</div>
-      <div className='th measurement-time'>{measurementTime} 초</div>
-      <div className='th gap'>{gapText}</div>
+      <div className='td memory-sequence'>{seqeunce}</div>
+      <div className='td memory-test-date'>{testDate}</div>
+      <div className='td measurement-time'>{measurementTime} 초</div>
+      <div className='td gap'>{gapText}</div>
     </div>
   )
 }
@@ -98,8 +98,8 @@ export default function MemoryTestComplete() {
       <div className='test-result-container'>
         <div className='test-result-table'>
           <div className='tr'>
-            <div className='th sequence'>순번</div>
-            <div className='th test-date'>검사 날짜</div>
+            <div className='th memory-sequence'>순번</div>
+            <div className='th memory-test-date'>검사 날짜</div>
             <div className='th measurement-time'>소요 시간</div>
             <div className='th gap'>차이</div>
           </div>
