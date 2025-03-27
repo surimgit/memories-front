@@ -42,6 +42,11 @@ body {
   opacity: 0.85;
 }
 
+.button.stratch {
+  height: 100%;
+  align-self: stretch;
+}
+
 .button.fullwidth {
   box-sizing: border-box;
   width: 100%;
@@ -192,18 +197,18 @@ body {
   background-image: url(src/assets/images/fog-active.png);
 }
 
-
-.test-result-container{
+.test-result-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.test-result-table{
+.test-result-table {
   border-radius: 10px;
   background-color: var(--White);
 }
-.test-result-table>.tr{
+
+.test-result-table>.tr {
   display: flex;
 
   box-sizing: border-box;
@@ -211,16 +216,16 @@ body {
   height: 50px;
 }
 
-.test-result-table>.tr:last-child{
+.test-result-table>.tr:last-child {
   border: none;
 }
 
 .test-result-table>.tr .th,
-.test-result-table>.tr .td{
+.test-result-table>.tr .td {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   box-sizing: border-box;
   border-right: 1px solid var(--Lightmode-Grey3);
 
@@ -229,38 +234,38 @@ body {
   font-weight: 700;
 }
 
-.test-result-table>.tr .td{
+.test-result-table>.tr .td {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
 
-.test-result-table>.tr .memory-sequence{
+.test-result-table>.tr .memory-sequence {
   width: 200px;
 }
 
-.test-result-table>.tr .conc-sequence, .test-result-table>.tr .measurement-score,
-.test-result-table>.tr .score-gap,
+.test-result-table>.tr .conc-sequence,
+.test-result-table>.tr .measurement-score,
+.test-result-table>.tr .score-gap, 
 .test-result-table>.tr .error-count,
-.test-result-table>.tr .error-gap{
+.test-result-table>.tr .error-gap {
   width: 180px;
 }
 
 .test-result-table>.tr .memory-test-date,
-.test-result-table>.tr .measurement-time{
+.test-result-table>.tr .measurement-time {
   width: 380px;
 }
 
-.test-result-table>.tr .conc-test-date{
+.test-result-table>.tr .conc-test-date {
   width: 280px;
 }
 
-
-.test-result-table>.tr .gap{
+.test-result-table>.tr .gap {
   width: 220px;
 }
 
-.pagination-container{
+.pagination-container {
   display: flex;
   justify-content: center;
 }

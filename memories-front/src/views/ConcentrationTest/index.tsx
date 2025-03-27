@@ -122,7 +122,7 @@ export default function ConcentrationTest() {
         <div className='test-box'>
           {isStarted ? 
           <div className='test-container'>
-            <div className='result-row'>
+            <div className='result-row'> 
               <div className='result-box'>
                 <div className='title'>성공</div>
                 <div className='success'>{measurementScore}/20</div>
