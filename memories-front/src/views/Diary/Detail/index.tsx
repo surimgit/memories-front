@@ -50,7 +50,7 @@ function CommentItem({ commentItem }: CommentItemProps) {
         <div className='divider'></div>
         <div className='write-date'>{writeDateText} 전</div>
       </div>
-      <div className='comment'>{comment}</div>
+      <div className='comment'>{comment}</div> 
     </div>
   )
 }
